@@ -1,129 +1,124 @@
 [
   {
-    "name": "NotyStack Android",
-    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
-    "image": "notystackandroid",
-    "category": "android",
+    "name": "Smart Dust",
+    "desc": "Smart dust is a tiny wireless microelectromechanical sensor (MEMS) that can detect conditions such as light, vibration, temperature and noise, and autonomously communicate this information back to a receiver. Smart dust has many potential applications, including military, medical, and environmental monitoring. Smart dust is still in its early stages of development, but it has the potential to revolutionize many industries.",
+    "image": "SmartDust",
+    "category": "",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/notystack-android"
+      "view": "https://prezi.com/p/ggtrlopo5gcd/smart-dust-mems/"
     }
   },
   {
-    "name": "SPPU Engg Prep",
-    "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
-    "image": "sppuprepandroid",
-    "category": "android",
+    "name": "E-Waste",
+    "desc": "The project discusses the dangers of electronic waste and the importance of managing it properly. E-waste is any discarded electrical or electronic device, and it can be harmful to both the environment and human health. The presentation provides statistics on the amount of e-waste generated each year and the types of devices that make up e-waste. It also discusses the effects of e-waste on the environment, including soil pollution, water pollution, and air pollution. The presentation also discusses the effects of e-waste on human health, including lead poisoning, mercury poisoning, and cadmium poisoning.",
+    "image": "EWaste",
+    "category": "",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/sppu-prep-android"
+      "view": "https://prezi.com/p/kehwckggk619/e-waste/"
+
     }
   },
   {
-    "name": "NewsBox Android",
-    "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
-    "image": "newsboxandroid",
-    "category": "android",
+    "name": "Laser Beam Machining",
+    "desc": "Laser Beam Machining (LBM) is a non-conventional machining method that utilizes the thermal energy of a focused laser beam to remove material from a workpiece. This process is suitable for machining both metallic and non-metallic materials, particularly those with low conductivity or brittle properties. LBM operates by directing a high-frequency monochromatic light beam onto the workpiece surface, causing the material to heat, melt, and vaporize. LBM finds applications in various industries, including light and heavy manufacturing, electronics, and medical device production.",
+    "image": "LBM",
+    "category": "",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/newsbox-android"
+      "view": "https://prezi.com/p/cfnked8cj8qt/laser-beam-machining/"
     }
   },
   {
-    "name": "Weatherly Android",
-    "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
-    "image": "weatherlyandroid",
-    "category": "android",
+    "name": "Successful Career",
+    "desc": "Successful Career highlights the significance of career planning and its positive outcomes. Emphasizes the importance of self-satisfaction, setting higher goals, and demonstrating a strong degree of commitment. The value of community contribution, citing examples of successful individuals like Nicolas Tesla, Elon Musk, Alfred Nobel, Mikhail Kalashnikov, APJ Abdul Kalam, and Steve Jobs. To conclude by emphasises the lasting impact of a successful career on future generations, leading to satisfaction and recognition.",
+    "image": "SuccessfulCareer",
+    "category": "",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/weatherly-android"
+      "view": "https://prezi.com/p/rlsgrvh9bimj/successful-career/"
     }
   },
   {
-    "name": "Instagram MERN",
-    "desc": "Full-Stack Instagram clone built using MERN stack and realtime chat with the help of socket.iO",
-    "image": "instagrammern",
-    "category": "mern",
+    "name": "Financial Management",
+    "desc": "This presentation provides an overview of financial management concepts, including terminology, financial statements, and ratio analysis. It also includes a case study of Konkan Textiles, a company that is seeking a loan from a bank to finance a new factory building. The presentation concludes with a discussion of the company's solvency and liquidity positions, as well as its claim that all of its expenditure on fixed assets during the previous year was financed entirely by its own funds.",
+    "image": "FinancialManagement",
+    "category": "",
     "links": {
-      "view": "https://instagramernstack.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/instagram-mern"
+      "view": "https://prezi.com/p/xbuljlsw3d6w/financial-management/"
     }
   },
   {
-    "name": "Flipkart MERN",
-    "desc": "Full-Stack Flipkart with Admin Dashboard and Paytm Payment Gateway. MERN Stack WebApp, ready to use for business.",
-    "image": "flipkartmern",
-    "category": "mern",
+    "name": "Smart Phones",
+    "desc": "This project discusses the problems faced by smartphones and their solutions. The problems faced are low battery capacity, breaking of smartphones, performance slowdown, poor camera quality, high screen-body ratio, notches, and large screen-small form factor. The solutions proposed are the use of hot-swappable power banks, screen protectors, polycarbonate covers, graphene, sapphire, and various display solutions like foldable phones, pinhole, and duel screens.",
+    "image": "SmartPhones",
+    "category": "",
     "links": {
-      "view": "https://flipkartwebs.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/flipkart-mern"
+      "view": "https://prezi.com/p/ezbtdhvpnbwc/smart-phones/"
     }
   },
   {
-    "name": "ResumeGen",
-    "desc": "ReactJS Basic Resume Generator which will generate customized resume in few minutes on your requirements.",
-    "image": "resumegen",
-    "category": "mern",
+    "name": "Autonomous Robotic Harvesting System",
+    "desc": "The project involved presenting a comprehensive proposal for the development, prototyping, and simulation of a novel inflatable end-effector designed to efficiently harvest round or pseudo-round shaped produce. The key focus was on ensuring the feasibility of integrating this innovative tool with widely available robotic platforms. To achieve this, the team conducted rigorous kinematic and dynamic analyses to validate the compatibility and practicality of the proposed end-effector. By addressing the technical aspects and demonstrating its potential for seamless integration, the project contributes to advancing automated harvesting processes in agriculture.",
+    "image": "ARHS",
+    "category": "",
     "links": {
       "view": "https://resumegenx.netlify.app/",
       "code": "https://github.com/jigar-sable/resumegen"
     }
   },
   {
-    "name": "React-Projects",
-    "desc": "Full-Stack project dashboard which is collection of projects built on the React library.",
-    "image": "reactprojects",
-    "category": "mern",
+    "name": "Intuitive Control of Virtual Globe Using Vision-Based Hand Tracking System    ",
+    "desc": "This project proposes a novel method for controlling a virtual globe using hand gestures. The proposed method utilizes the MediaPipe library for hand tracking and the Perspective-n-Point (PnP) method for 3D pose estimation. The system tracks the user's hand position and gestures and maps these movements to corresponding actions on the virtual globe. This allows for a more intuitive and engaging way to interact with virtual globes, compared to traditional methods such as a mouse or touchscreen. The paper also presents experimental results that demonstrate the accuracy and robustness of the proposed method.",
+    "image": "ICVGVBHTS",
+    "category": "",
     "links": {
       "view": "https://reactjsprojects.herokuapp.com/",
       "code": "https://github.com/jigar-sable/React-Projects"
     }
   },
   {
-    "name": "Flipkart PHP",
-    "desc": "Full-Stack Flipkart Clone Using LAMP Stack. With all major features and OTP authentication and Cashfree payment gateway.",
-    "image": "flipkartphp",
-    "category": "lamp",
+    "name": "Flipkart GRiD 2.0 - Robotics Hackathon",
+    "desc": "A five-member team collaborated on a project to develop a proof of concept and build a proposal for an autonomous smart indoor drone that could carry 5 lbs of payload and automate warehouse management tasks. The drone would use sensors like cameras and lidar to navigate safely and efficiently. The team presented a comprehensive proposal with a detailed design, testing plan, budget, and timeline. This project has the potential to revolutionize warehouse management by automating tasks, reducing costs, increasing fulfilment capacity, and working 24/7.",
+    "image": "FGRH",
+    "category": "",
     "links": {
       "view": "https://github.com/jigar-sable/Flipkart-Clone-PHP",
       "code": "https://github.com/jigar-sable/Flipkart-Clone-PHP"
     }
   },
   {
-    "name": "JavaScript Projects Website",
-    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
-    "image": "jspro",
-    "category": "basicweb",
+    "name": "Miniature Paper Printing Machine",
+    "desc": "A functional miniature paper printing machine was constructed using Meccano sheet metal components, applying the principles of Kinematics & Dynamics of Machines coursework. The machine effectively transfers ink from a printing plate onto paper, demonstrating a successful implementation of mechanical engineering concepts.",
+    "image": "MPPM",
+    "category": "",
     "links": {
       "view": "https://jigar-sable.github.io/JavaScript-Projects",
       "code": "https://github.com/jigar-sable/JavaScript-Projects"
     }
   },
   {
-    "name": "Web UI Clones",
-    "desc": "Flipkart, YouTube, Instagram, Sololearn web UI clones using tailwindCSS.",
-    "image": "webuiclones",
-    "category": "mern",
+    "name": "Smart Areal Robot",
+    "desc": "Smart Areal Robot is a project that is creating a sophisticated robot that can follow lines, detect edges, be controlled by Bluetooth, and avoid obstacles. The project is being done on a $100 budget, which shows that it is possible to create a robot with these features without spending a lot of money.",
+    "image": "SAR",
+    "category": "",
     "links": {
       "view": "https://github.com/jigar-sable/web-ui-clones",
       "code": "https://github.com/jigar-sable/web-ui-clones"
     }
   },
   {
-    "name": "Crypto Tracker",
-    "desc": "Crypto Tracker built using ReactJS and Chakra UI. Supports dark mode. API used coingecko.",
-    "image": "cryptotracker",
-    "category": "mern",
+    "name": "A Generic Solver for Forward Kinematics of Single Degree-of-Freedom 4-bar and 6-bar Planar Linkages",
+    "desc": "This project developed a graphical user interface (GUI) application on the .NET framework that integrates multiple self-authored dynamic-link libraries to perform forward kinematic analysis of any single degree of freedom planar mechanisms. The GUI application reduces computational time by 30% and enables engineers to perform forward kinematic analysis simply by drawing the joint map on a blank canvas.",
+    "image": "AGSFKSDPL",
+    "category": "",
     "links": {
       "view": "https://crypto-tracker-react-project.netlify.app/",
       "code": "https://github.com/jigar-sable/React-Projects/tree/main/crypto-tracker"
     }
   },
   {
-    "name": "Hulu Website",
-    "desc": "Hulu website built using NextJS and tailwindCSS. API used TMDB, deployed on vercel.",
-    "image": "hulu",
-    "category": "mern",
+    "name": "Automated Workflow of Additive and Subtractive Manufactured Parts",
+    "desc": "This project explored an automated workflow for fabricating custom-designed components using both additive and subtractive manufacturing techniques. By generating G-code and simulating the CNC subtractive manufacturing process. Additionally, a comprehensive pipeline was developed for selecting the optimal additive manufacturing technique based on material properties, design geometry, production size, and desired accuracy levels. This project highlights the potential of combining additive and subtractive manufacturing techniques to achieve efficient and precise manufacturing of custom-designed components.",
+    "image": "AWASMP",
+    "category": "",
     "links": {
       "view": "https://hulu-clone-jigar-sable.vercel.app/",
       "code": "https://github.com/jigar-sable/React-Projects/tree/main/hulu-clone"
@@ -132,15 +127,15 @@
   {
     "name": "Portfolio Website",
     "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
-    "image": "portfolio1",
-    "category": "basicweb",
+    "image": "portfolio",
+    "category": "",
     "links": {
       "view": "#",
-      "code": "https://github.com/jigar-sable/Portfolio-Website"
+      "code": "https://vaishnavch.github.io/Portfolio/"
     }
   },
   {
-    "name": "Composey Website",
+    "name": "Tribometer",
     "desc": "Simple landing page website built using HTML, CSS, JavaScript and some JavaScript Libraries.",
     "image": "composey",
     "category": "basicweb",
@@ -150,193 +145,13 @@
     }
   },
   {
-    "name": "Webview App",
+    "name": "Intuitive & Counter-Intuitive Mechanisms",
     "desc": "It's an android app which uses web view component for displaying content. This app provides many different features.",
     "image": "webviewapp",
     "category": "android",
     "links": {
       "view": "https://github.com/jigar-sable/Android-Webview#webapp--android-webview-app",
       "code": "https://github.com/jigar-sable/Android-Webview"
-    }
-  },
-  {
-    "name": "PHP Banking Website",
-    "desc": "Basic Banking System based on PHP and MySQL database. Made with HTML, CSS, JavaScript and backend with PHP.",
-    "image": "tsfbank",
-    "category": "lamp",
-    "links": {
-      "view": "https://tsfbank.rf.gd",
-      "code": "https://github.com/jigar-sable/TSF-Bank"
-    }
-  },
-  {
-    "name": "Bootstrap Portfolio",
-    "desc": "Portfolio built using HTML, CSS, Bootstrap, SASS and JavaScript. Customized Bootstrap using SCSS.",
-    "image": "bootstrapportfolio",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Bootstrap Template",
-    "desc": "Basic website template built using HTML and Bootstrap.",
-    "image": "bootstraptemplate",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Foodicious",
-    "desc": "Basic food website landing page built using HTML, CSS and JavaScript.",
-    "image": "foodicious",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Food Website",
-    "desc": "Basic food website landing page built using HTML, CSS, SASS, Bootstrap and jQuery.",
-    "image": "foodwebsite",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "WebChat Website",
-    "desc": "It's a web based chat app made using popular javaScript library Socket IO. Allows multiple users to connect.",
-    "image": "webchat",
-    "category": "mern",
-    "links": {
-      "view": "https://github.com/jigar-sable/WebChat#webchat",
-      "code": "https://github.com/jigar-sable/WebChat"
-    }
-  },
-  {
-    "name": "Basic Banking App",
-    "desc": "It's an android app which uses SQLite to store user accounts data. It provides feature to simply transact amount.",
-    "image": "basicbank",
-    "category": "android",
-    "links": {
-      "view": "https://github.com/jigar-sable/Basic_Banking_App#basic-banking-app",
-      "code": "https://github.com/jigar-sable/Basic_Banking_App"
-    }
-  },
-  {
-    "name": "JavaScript Issue Tracker",
-    "desc": "It provides the feature to Assign Issue With The Auto Generated Id By Using ChanceJS. Uses Local Storage.",
-    "image": "issuetrack",
-    "category": "basicweb",
-    "links": {
-      "view": "https://jigar-sable.github.io/JavaScript-Projects/projects/issuetracker",
-      "code": "https://github.com/jigar-sable/JavaScript-Projects/tree/main/projects/issuetracker"
-    }
-  },
-  {
-    "name": "PHP PBL Portal",
-    "desc": "A simple portal in which students can submit their PBL projects and faculties can view by access admin panel.",
-    "image": "phppblform",
-    "category": "lamp",
-    "links": {
-      "view": "https://github.com/jigar-sable/PHP-Projects/tree/main/pblform#pbl-portal",
-      "code": "https://github.com/jigar-sable/PHP-Projects/tree/main/pblform"
-    }
-  },
-  {
-    "name": "Link List",
-    "desc": "All major profile links in a single website. It's just like clone of link tree. Personalized and Responsive.",
-    "image": "linklist",
-    "category": "basicweb",
-    "links": {
-      "view": "https://jigar-sable.github.io/LinkList",
-      "code": "https://github.com/jigar-sable/LinkList"
-    }
-  },
-  {
-    "name": "Job Finder Dummy",
-    "desc": "It Fetch JSON Data And Allow Feature To Search Within The Content Displayed. Will be Developed By Using Live APIs.",
-    "image": "saas",
-    "category": "basicweb",
-    "links": {
-      "view": "https://jigar-sable.github.io/JavaScript-Projects/api-projects/saas-jobs",
-      "code": "https://github.com/jigar-sable/JavaScript-Projects/tree/main/api-projects/saas-jobs"
-    }
-  },
-  {
-    "name": "Old Websites",
-    "desc": "Bestwebs & ColorCoder. Two Years old websites memories. Simple with basic features.",
-    "image": "oldsites",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Resistor Color Codes",
-    "desc": "Simply provides the color codes of resistors. Calculation information and about resistors.",
-    "image": "resistercolor",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "KIA Info Website",
-    "desc": "Basic KIA webpage displays the info about seltos product range. Specs and Image Gallery.",
-    "image": "kiaweb",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Burger Shop Dummy",
-    "desc": "Basic burger shop webpage allow users to check menu and price. Dummy Order Form.",
-    "image": "burgerweb",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Indian Temples",
-    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-    "image": "templeweb",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Indian Temples",
-    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-    "image": "templeweb",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Indian Temples",
-    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-    "image": "templeweb",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
     }
   }
 ]
