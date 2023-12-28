@@ -1,7 +1,7 @@
 [
     {
         "name": "Autodesk AutoCAD",
-        "icon": "https://img.icons8.com/color/48/autocad.png"
+        "icon": "https://img.icons8.com/color/48/000000/autocad.png"
     },
     {
         "name": "Autodesk Inventor",
@@ -17,11 +17,11 @@
     },
     {
         "name": "3D Printing",
-        "icon": "3DPrinting.png"
+        "icon": "https://img.icons8.com/color/48/000000/external-3d-printing-industry-flaticons-lineal-color-flat-icons.png"
     },
     {
         "name": "Prototyping",
-        "icon": "Prototyping.png"
+        "icon": "https://img.icons8.com/color/48/000000/external-prototyping-ux-and-ui-flatart-icons-lineal-color-flatarticons.png"
     },
     {
         "name": "Fusion 360",
@@ -33,11 +33,11 @@
     },
     {
         "name": "Creo",
-        "icon": "https://img.icons8.com/color/48/000000/creo.png"
+        "icon": "https://img.icons8.com/color/48/000000/ptc-creo.png"
     },
     {
         "name": "Microsoft Office",
-        "icon": "https://img.icons8.com/color/48/000000/microsoft.png"
+        "icon": "https://img.icons8.com/color/48/000000//microsoft-office-2019.png"
     },
     {
         "name": "Visual Studio",
@@ -49,15 +49,15 @@
     },
     {
         "name": "C#",
-        "icon": "C#.png"
+        "icon": "https://img.icons8.com/color/48/000000/c-sharp-logo.png"
     },
     {
         "name": "LaTeX",
-        "icon": "LaTeX.png"
+        "icon": "https://img.icons8.com/color/48/000000/texshop.png"
     },
     {
         "name": "Flask",
-        "icon": "Flask.png"
+        "icon": "https://img.icons8.com/color/48/000000/flask.png"
     },
     {
         "name": "Bootstrap",
@@ -81,11 +81,11 @@
     },
     {
         "name": "Docker",
-        "icon": "Docker.png"
+        "icon": "https://img.icons8.com/color/48/000000/docker.png"
     },
     {
         "name": "MATLAB",
-        "icon": "MATLAB.png"
+        "icon": "https://img.icons8.com/color/48/000000/matlab.png"
     },
     {
         "name": "Python",
@@ -105,7 +105,7 @@
     },
     {
         "name": "Angular",
-        "icon": "Angular.png"
+        "icon": "https://img.icons8.com/color/48/000000/angularjs.png"
     },
     {
         "name": "AWS",
