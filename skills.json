@@ -1,7 +1,7 @@
 [
     {
         "name": "Autodesk AutoCAD",
-        "icon": "AutoCAD.png"
+        "icon": "https://img.icons8.com/color/48/000000/autocad.png"
     },
     {
         "name": "Autodesk Inventor",
@@ -9,11 +9,11 @@
     },
     {
         "name": "Solidworks",
-        "icon": "Solidworks.png"
+        "icon": "https://img.icons8.com/color/48/000000/solidworks.png"
     },
     {
         "name": "Ansys",
-        "icon": "Ansys.png"
+        "icon": "https://img.icons8.com/color/48/000000/ansys.png"
     },
     {
         "name": "3D Printing",
@@ -22,6 +22,30 @@
     {
         "name": "Prototyping",
         "icon": "Prototyping.png"
+    },
+    {
+        "name": "Fusion 360",
+        "icon": "Fusion360.png"
+    },
+    {
+        "name": "Catia",
+        "icon": "Catia.png"
+    },
+    {
+        "name": "Creo",
+        "icon": "https://img.icons8.com/color/48/000000/creo.png"
+    },
+    {
+        "name": "Microsoft Office",
+        "icon": "https://img.icons8.com/color/48/000000/microsoft.png"
+    },
+    {
+        "name": "Visual Studio",
+        "icon": "https://img.icons8.com/color/48/000000/visual-studio.png"
+    },
+    {
+        "name": "LabView",
+        "icon": "LabView.png"
     },
     {
         "name": "C#",
@@ -38,10 +62,6 @@
     {
         "name": "Bootstrap",
         "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
-    },
-    {
-        "name": "Sass",
-        "icon": "https://img.icons8.com/color/48/000000/sass.png"
     },
     {
         "name": "HTML5",
@@ -77,7 +97,7 @@
     },
     {
         "name": "Fluent ",
-        "icon": "Fluent .png"
+        "icon": "Fluent.png"
     },
     {
         "name": "MySQL",
@@ -134,30 +154,6 @@
     {
         "name": "Business Writing",
         "icon": "BusinessWriting.png"
-    },
-    {
-        "name": "Fusion 360",
-        "icon": "BusinessWriting.png"
-    },
-    {
-        "name": "Catia",
-        "icon": "BusinessWriting.png"
-    },
-    {
-        "name": "Creo",
-        "icon": "BusinessWriting.png"
-    },
-    {
-        "name": "Mircosoft Office",
-        "icon": "BusinessWriting.png"
-    },
-    {
-        "name": "Visula Studio",
-        "icon": "BusinessWriting.png"
-    },
-    {
-        "name": "LabView",
-        "icon": "LabView.png"
     }
-    
+
 ]
