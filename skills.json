@@ -134,6 +134,30 @@
     {
         "name": "Business Writing",
         "icon": "BusinessWriting.png"
+    },
+    {
+        "name": "Fusion 360",
+        "icon": "BusinessWriting.png"
+    },
+    {
+        "name": "Catia",
+        "icon": "BusinessWriting.png"
+    },
+    {
+        "name": "Creo",
+        "icon": "BusinessWriting.png"
+    },
+    {
+        "name": "Mircosoft Office",
+        "icon": "BusinessWriting.png"
+    },
+    {
+        "name": "Visula Studio",
+        "icon": "BusinessWriting.png"
+    },
+    {
+        "name": "LabView",
+        "icon": "LabView.png"
     }
-
+    
 ]
