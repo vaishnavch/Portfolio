@@ -2,7 +2,7 @@
   {
     "name": "Smart Dust",
     "desc": "Smart dust is a tiny wireless microelectromechanical sensor (MEMS) that can detect conditions such as light, vibration, temperature and noise, and autonomously communicate this information back to a receiver. Smart dust has many potential applications, including military, medical, and environmental monitoring. Smart dust is still in its early stages of development, but it has the potential to revolutionize many industries.",
-    "image": "SmartDust.png",
+    "image": "assets/images/projects/SmartDust.png",
     "category": "",
     "links": {
       "view": "https://prezi.com/p/ggtrlopo5gcd/smart-dust-mems/"
@@ -11,7 +11,7 @@
   {
     "name": "E-Waste",
     "desc": "The project discusses the dangers of electronic waste and the importance of managing it properly. E-waste is any discarded electrical or electronic device, and it can be harmful to both the environment and human health. The presentation provides statistics on the amount of e-waste generated each year and the types of devices that make up e-waste. It also discusses the effects of e-waste on the environment, including soil pollution, water pollution, and air pollution. The presentation also discusses the effects of e-waste on human health, including lead poisoning, mercury poisoning, and cadmium poisoning.",
-    "image": "EWaste.png",
+    "image": "assets/images/projects/EWaste.png",
     "category": "",
     "links": {
       "view": "https://prezi.com/p/kehwckggk619/e-waste/"
@@ -21,7 +21,7 @@
   {
     "name": "Laser Beam Machining",
     "desc": "Laser Beam Machining (LBM) is a non-conventional machining method that utilizes the thermal energy of a focused laser beam to remove material from a workpiece. This process is suitable for machining both metallic and non-metallic materials, particularly those with low conductivity or brittle properties. LBM operates by directing a high-frequency monochromatic light beam onto the workpiece surface, causing the material to heat, melt, and vaporize. LBM finds applications in various industries, including light and heavy manufacturing, electronics, and medical device production.",
-    "image": "LBM.png",
+    "image": "assets/images/projects/LBM.png",
     "category": "",
     "links": {
       "view": "https://prezi.com/p/cfnked8cj8qt/laser-beam-machining/"
@@ -30,7 +30,7 @@
   {
     "name": "Successful Career",
     "desc": "Successful Career highlights the significance of career planning and its positive outcomes. Emphasizes the importance of self-satisfaction, setting higher goals, and demonstrating a strong degree of commitment. The value of community contribution, citing examples of successful individuals like Nicolas Tesla, Elon Musk, Alfred Nobel, Mikhail Kalashnikov, APJ Abdul Kalam, and Steve Jobs. To conclude by emphasises the lasting impact of a successful career on future generations, leading to satisfaction and recognition.",
-    "image": "SuccessfulCareer.png",
+    "image": "assets/images/projects/SuccessfulCareer.png",
     "category": "",
     "links": {
       "view": "https://prezi.com/p/rlsgrvh9bimj/successful-career/"
@@ -39,7 +39,7 @@
   {
     "name": "Financial Management",
     "desc": "This presentation provides an overview of financial management concepts, including terminology, financial statements, and ratio analysis. It also includes a case study of Konkan Textiles, a company that is seeking a loan from a bank to finance a new factory building. The presentation concludes with a discussion of the company's solvency and liquidity positions, as well as its claim that all of its expenditure on fixed assets during the previous year was financed entirely by its own funds.",
-    "image": "FinancialManagement.png",
+    "image": "assets/images/projects/FinancialManagement.png",
     "category": "",
     "links": {
       "view": "https://prezi.com/p/xbuljlsw3d6w/financial-management/"
@@ -48,7 +48,7 @@
   {
     "name": "Smart Phones",
     "desc": "This project discusses the problems faced by smartphones and their solutions. The problems faced are low battery capacity, breaking of smartphones, performance slowdown, poor camera quality, high screen-body ratio, notches, and large screen-small form factor. The solutions proposed are the use of hot-swappable power banks, screen protectors, polycarbonate covers, graphene, sapphire, and various display solutions like foldable phones, pinhole, and duel screens.",
-    "image": "SmartPhones.png",
+    "image": "assets/images/projects/SmartPhones.png",
     "category": "",
     "links": {
       "view": "https://prezi.com/p/ezbtdhvpnbwc/smart-phones/"
