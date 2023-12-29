@@ -20,24 +20,24 @@
         "icon": "assets/images/skills/icons8-3d-printing-64.png"
     },
     {
-        "name": "Prototyping",
-        "icon": "assets/images/skills/icons8-prototyping-64.png"
+        "name": "C#",
+        "icon": "assets/images/skills/c2.png"
     },
     {
-        "name": "Fusion 360",
-        "icon": "assets/images/skills/fusion360.png"
+        "name": "LaTeX",
+        "icon": "assets/images/skills/LaTeX_logo.png"
     },
     {
-        "name": "Catia",
-        "icon": "assets/images/skills/DS-CATIA-Logo.png"
+        "name": "Flask",
+        "icon": "assets/images/skills/icons8-flask-64.png"
     },
     {
-        "name": "Creo",
-        "icon": "assets/images/skills/Creo.png"
+        "name": "HTML5",
+        "icon": "assets/images/skills/icons8-html-48.png"
     },
     {
-        "name": "LabView",
-        "icon": "assets/images/skills/labview.png"
+        "name": "Docker",
+        "icon": "assets/images/skills/icons8-docker-48.png"
     },
     {
         "name": "MATLAB",
@@ -46,62 +46,6 @@
     {
         "name": "Fluent ",
         "icon": "Fluent.png"
-    },
-    {
-        "name": "RoboAnalyser",
-        "icon": "RoboAnalyser.png"
-    },
-    {
-        "name": "LaTeX",
-        "icon": "assets/images/skills/LaTeX_logo.png"
-    },
-    {
-        "name": "Microsoft Office",
-        "icon": "assets/images/skills/icons8-microsoft-office-2019-48.png"
-    },
-    {
-        "name": "Visual Studio",
-        "icon": "assets/images/skills/icons8-visual-studio-code-2019-48.png"
-    },
-    {
-        "name": "Python",
-        "icon": "assets/images/skills/icons8-python-48.png"
-    },
-    {
-        "name": "C#",
-        "icon": "assets/images/skills/c2.png"
-    },
-    {
-        "name": "C++",
-        "icon": "assets/images/skills/icons8-c-48.png"
-    },
-    {
-        "name": "HTML5",
-        "icon": "assets/images/skills/icons8-html-48.png"
-    },
-    {
-        "name": "CSS3",
-        "icon": "assets/images/skills/icons8-css-48.png"
-    },
-    {
-        "name": "JavaScript",
-        "icon": "assets/images/skills/icons8-javascript-48.png"
-    },
-    {
-        "name": "Flask",
-        "icon": "assets/images/skills/icons8-flask-64.png"
-    },
-    {
-        "name": "Java",
-        "icon": "assets/images/skills/icons8-java-48.png"
-    },
-    {
-        "name": "Docker",
-        "icon": "assets/images/skills/icons8-docker-48.png"
-    },
-    {
-        "name": "MySQL",
-        "icon": "assets/images/skills/icons8-mysql-48.png"
     },
     {
         "name": "Angular",
@@ -114,6 +58,10 @@
     {
         "name": "GitHub",
         "icon": "assets/images/skills/icons8-github-60.png"
+    },
+    {
+        "name": "RoboAnalyser",
+        "icon": "RoboAnalyser.png"
     },
     {
         "name": "Communicating with Confidence",
@@ -147,4 +95,5 @@
         "name": "Business Writing",
         "icon": "BusinessWriting.png"
     }
+
 ]
