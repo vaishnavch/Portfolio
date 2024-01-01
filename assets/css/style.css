@@ -361,7 +361,7 @@ header .navbar ul li a:hover {
 }
 .about .row .image img {
   margin: 4rem;
-  width: 30rem;
+  width: 45rem;
   height: auto;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
@@ -392,22 +392,26 @@ header .navbar ul li a:hover {
   font-family: "Nunito";
   font-weight: 600;
   text-transform: none;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.5rem;
+  gap: 1.5rem;
 }
 .about .row .content .box-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
   font-family: "Nunito";
   font-weight: 600;
 }
-.about .row .content .box-container .box p {
+.about .row .content .box-container .box {
   text-transform: none;
+  line-height: 1rem;
 }
 .about .row .content .box-container .box p span {
   color: #011aff;
 }
 .resumebtn {
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 .resumebtn .btn {
   padding: 1.7rem 3rem;
@@ -569,14 +573,18 @@ header .navbar ul li a:hover {
   box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
 }
 .education .box-container .box .image {
-  flex: 1 1 20rem;
+  flex: 1 1 10rem;
   width: 100%;
 }
 .education .box-container .box img {
   object-fit: cover;
-  position: relative;
-  width: 100%;
-  height: 100%;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.75rem;
+  margin-bottom: auto;
+  width: 90%;
+  height: 90%;
 }
 .education .box-container .box .content {
   position: relative;
@@ -856,6 +864,13 @@ header .navbar ul li a:hover {
 .experience .content .desc p {
   font-size: 1.2rem;
 }
+.experience .qoute {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
 /* view all button */
 .morebtn {
   display: flex;
@@ -871,6 +886,7 @@ header .navbar ul li a:hover {
   background: #2506ad;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   text-align: center;
+  margin-top: 1rem;
 }
 .morebtn .btn span {
   font-weight: 600;
@@ -926,6 +942,7 @@ header .navbar ul li a:hover {
   .morebtn {
     margin-top: 3rem;
   }
+
 }
 /* experience media queries ends */
 /* experience section ends */

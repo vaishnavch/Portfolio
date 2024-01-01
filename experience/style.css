@@ -243,6 +243,7 @@ header .navbar ul li a:hover{
   background-color: #f68c09;
   position: relative;
   border-radius: 6px;
+  
 }
 .experience .content .tag{
   font-size: 1.3rem;
@@ -259,6 +260,9 @@ header .navbar ul li a:hover{
 }
 .experience .content .desc p{
   font-size: 1.2rem;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-right: 1.5rem;
 }
 /* view all button */
 .morebtn{
