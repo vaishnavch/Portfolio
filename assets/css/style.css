@@ -309,16 +309,16 @@ header .navbar ul li a:hover {
 .social-icons a.github:hover {
   background-color: #0e0e0e;
 }
-.social-icons a.twitter:hover {
+.social-icons a.scholar:hover {
   background-color: #00aced;
 }
 .social-icons a.linkedin:hover {
   background-color: #007bb6;
 }
-.social-icons a.dev:hover {
+.social-icons a.mailto:hover {
   background-color: #070707;
 }
-.social-icons a.instagram:hover {
+.social-icons a.invent:hover {
   background-color: #ee00da;
 }
 /* social icons end */
@@ -361,7 +361,7 @@ header .navbar ul li a:hover {
 }
 .about .row .image img {
   margin: 4rem;
-  width: 45rem;
+  width: 40rem;
   height: auto;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
@@ -388,13 +388,13 @@ header .navbar ul li a:hover {
 }
 .about .row .content p {
   font-size: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   font-family: "Nunito";
   font-weight: 600;
   text-transform: none;
   text-align: justify;
   text-justify: inter-word;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
   gap: 1.5rem;
 }
 .about .row .content .box-container {
@@ -405,13 +405,14 @@ header .navbar ul li a:hover {
 }
 .about .row .content .box-container .box {
   text-transform: none;
-  line-height: 1rem;
+
 }
 .about .row .content .box-container .box p span {
   color: #011aff;
+  line-height: 0.5rem;
 }
 .resumebtn {
-  margin-top: 4rem;
+  margin-top: 2.5rem;
 }
 .resumebtn .btn {
   padding: 1.7rem 3rem;
