@@ -155,7 +155,7 @@ header .navbar ul li a:hover{
 }
 /* hamburger icon ends */
 
-/* work section starts */
+/* projects section starts */
 .work{
   /* background: #010124; */
   background: linear-gradient(to bottom, #010136, #00003a);
@@ -317,7 +317,7 @@ header .navbar ul li a:hover{
 .backbtn .btn:hover i {
   transform: translateX(-8px);
 }
-/* work section ends */
+/* projects section ends */
 
 /* common media queries starts*/
 @media(max-width:450px){
