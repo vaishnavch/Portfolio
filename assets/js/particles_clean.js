@@ -17,10 +17,10 @@ function isInArray(e, a) {
 var pJS = function (e, a) {
   var t = document.querySelector("#" + e + " > .particles-js-canvas-el");
   this.pJS = {
-    canvas: { el: t, w: t.offsetWidth, h: t.offsetHeight },
+    canvas: { el: t, w: t.offsetWidth, h: t.offsetHeight, backgroundColor: "#000000"},
     particles: {
       number: { value: 400, density: { enable: !0, value_area: 800 } },
-      color: { value: "#fff" },
+      color: { value: "#ffffff" },
       shape: {
         type: "circle",
         stroke: { width: 0, color: "#ff0000" },
@@ -40,7 +40,7 @@ var pJS = function (e, a) {
       line_linked: {
         enable: !0,
         distance: 100,
-        color: "#fff",
+        color: "#ffffff",
         opacity: 1,
         width: 1,
       },
