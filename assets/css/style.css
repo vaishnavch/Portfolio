@@ -47,6 +47,7 @@ body.light-theme {
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 html::-webkit-scrollbar {
   width: 0.8rem;
@@ -98,6 +99,7 @@ body.light-theme header {
 section {
   min-height: 100vh;
   padding: 2rem 9%;
+  scroll-margin-top: 8rem;
 }
 .heading {
   font-size: 3.5rem;
@@ -215,6 +217,14 @@ body.light-theme .theme-switch span {
   color: rgb(24, 2, 63);
   display: none;
 }
+@media (max-width: 1200px) {
+  header {
+    padding: 1.7rem 6%;
+  }
+  section {
+    padding: 2rem 6%;
+  }
+}
 @media (max-width: 768px) {
   #menu {
     display: block;
@@ -293,7 +303,7 @@ body.light-theme .home::before {
   flex: 1 1 40rem;
   padding-top: 1rem;
   z-index: 1;
-  min-width: 32rem;
+  min-width: 0;
 }
 .home .image {
   flex: 1 1 40rem;
@@ -1166,7 +1176,7 @@ body.light-theme .work .box-container .box .content {
   width: 100%;
   background: var(--surface);
   border-radius: 1.5rem;
-  margin: 2rem 5rem;
+  margin: 2rem auto;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 .contact .container .content {
@@ -1296,6 +1306,17 @@ form .button-area {
 @media (max-width: 900px) {
   .contact {
     min-height: 70vh;
+  }
+  section {
+    padding: 2rem 4%;
+  }
+  .home .image img {
+    width: 100%;
+    margin-left: 0;
+    max-width: 420px;
+  }
+  .home .content {
+    min-width: 0;
   }
   .contact .container {
     margin: 3rem 0 2rem 0;
