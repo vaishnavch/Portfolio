@@ -1322,9 +1322,12 @@ form .button-area {
   padding: 1rem 0;
 }
 .footer .box-container .box .share a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   height: 4rem;
   width: 4rem;
-  padding: 1rem;
+  padding: 0;
   text-align: center;
   border-radius: 5rem;
   font-size: 1.7rem;
