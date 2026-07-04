@@ -222,9 +222,10 @@ body.light-theme .theme-switch span {
   header .navbar {
     position: fixed;
     top: 6.5rem;
-    right: -120%;
-    width: 75%;
-    height: 100%;
+    right: -100%;
+    width: 100%;
+    max-width: 420px;
+    height: calc(100% - 6.5rem);
     text-align: left;
     align-items: flex-start;
     background-color: #0e0f31;
@@ -234,24 +235,20 @@ body.light-theme .theme-switch span {
     padding: 1rem;
   }
   header .navbar ul li {
-    text-align: center;
+    text-align: left;
     width: 100%;
-    margin: 1rem 0;
+    margin: 0.6rem 0;
     border-radius: 0.5rem;
-    width: 26rem;
   }
   header .navbar ul li a {
     display: block;
     padding: 1rem;
-    text-align: left;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   header .navbar ul li a.active,
   header .navbar ul li a:hover {
-    padding: 1rem;
     color: #fff;
-    border-radius: 0.5rem;
     border-bottom: 0.5rem solid #011aff;
   }
   .fa-times {
@@ -271,6 +268,7 @@ body.light-theme .theme-switch span {
   gap: 1.5rem;
   min-height: 100vh;
   align-items: center;
+  justify-content: center;
 }
 .home #particles-js {
   position: absolute;
@@ -292,6 +290,7 @@ body.light-theme .theme-switch span {
   flex: 1 1 40rem;
   padding-top: 1rem;
   z-index: 1;
+  min-width: 32rem;
 }
 .home .image {
   flex: 1 1 40rem;
@@ -308,32 +307,32 @@ body.light-theme .theme-switch span {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 .home .content h2 {
-  font-size: 5rem;
+  font-size: clamp(3rem, 6vw, 5rem);
   font-weight: 800;
   color: var(--text);
 }
 .home .content h2 span {
-  font-size: 5rem;
+  font-size: clamp(3rem, 6vw, 5rem);
   font-weight: 800;
   color: var(--accent);
 }
 .home .content p {
-  font-size: 2.5rem;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
   color: var(--text);
   font-weight: 600;
   padding: 1rem 0;
 }
 .home .content p span {
-  font-size: 2.5rem;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
   color: var(--muted);
   font-weight: 600;
   padding: 1rem 0;
 }
 .home .btn {
   margin-top: 1rem;
-  position: absolute;
+  position: relative;
   line-height: 0;
-  padding: 1.6rem 3rem;
+  padding: 1.4rem 2.5rem;
   border-radius: 4em;
   transition: 0.5s;
   color: #fff;
@@ -343,7 +342,7 @@ body.light-theme .theme-switch span {
 }
 .home .btn span {
   font-weight: 700;
-  font-size: 1.7rem;
+  font-size: clamp(1.4rem, 2vw, 1.7rem);
   letter-spacing: 0.1rem;
 }
 .home .btn i {
@@ -410,21 +409,51 @@ body.light-theme .theme-switch span {
 /* social icons end */
 
 /* hero media queries starts*/
-@media (max-width: 450px) {
-  .home .btn {
-    margin: 4rem 0;
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 6.5rem);
+    padding: 4rem 1.5rem 2rem;
   }
-  .socials {
-    margin-top: 12rem;
+  .home .content,
+  .home .image {
+    flex: 1 1 100%;
+    width: 100%;
+    min-width: 0;
+  }
+  .home .image {
+    margin-top: 1rem;
   }
   .home .image img {
-    margin-top: -12rem;
+    width: min(90%, 28rem);
+    margin: 0 auto;
   }
-  .home .content p {
-    font-size: 2.2rem;
+  .home .btn {
+    margin: 2rem auto 0;
   }
+  .socials {
+    margin-top: 3rem;
+  }
+  .home .content p,
   .home .content p span {
-    font-size: 2.2rem;
+    font-size: clamp(1.8rem, 3vw, 2.2rem);
+  }
+}
+@media (max-width: 450px) {
+  .home {
+    padding: 3rem 1rem 2rem;
+  }
+  .home .btn {
+    margin: 2rem auto 0;
+    padding: 1.2rem 2rem;
+  }
+  .home .image img {
+    width: min(95%, 26rem);
+  }
+  .socials {
+    margin-top: 2rem;
   }
 }
 /* hero media queries ends*/
@@ -622,6 +651,11 @@ body.light-theme .skills {
   .skills .container {
     margin-top: 5px;
     width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .skills .container .row {
+    grid-template-columns: 1fr;
   }
 }
 /* skills media queries ends*/
@@ -863,6 +897,38 @@ body.light-theme .work .box-container .box .content {
   transform: translateX(5px);
 }
 /* work section ends */
+
+@media (max-width: 768px) {
+  .work .box-container {
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .work .box-container .box {
+    width: 100%;
+    min-height: auto;
+    height: auto;
+  }
+  .work .box-container .box .content {
+    position: relative;
+    top: auto;
+    left: auto;
+    background: rgba(8, 12, 30, 0.95);
+    min-height: auto;
+  }
+  .work .box-container .box:hover .content {
+    top: auto;
+  }
+  .work .desc {
+    margin: 1.5rem;
+  }
+  .work .desc p,
+  .work .desc .btns .btn {
+    font-size: clamp(1.4rem, 2.5vw, 1.6rem);
+  }
+  .work .viewall .btn {
+    width: min(100%, 28rem);
+  }
+}
 
 /* experience section starts */
 .experience .timeline {
@@ -1295,8 +1361,13 @@ form .button-area {
   }
 }
 @media (max-width: 450px) {
+  .footer .box-container {
+    flex-direction: column;
+    align-items: center;
+  }
   .footer .box-container .box {
-    margin: 1.5rem;
+    width: 100%;
+    margin: 1rem 0;
   }
   .footer .box-container .box p {
     padding: 0.7rem;
