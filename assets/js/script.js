@@ -1,3 +1,5 @@
+emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+
 $(document).ready(function () {
 
     $('#menu').click(function () {
@@ -37,22 +39,22 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+        event.preventDefault();
+        var $btn = $(this).find('button[type="submit"]');
+        $btn.prop('disabled', true).html('Sending... <i class="fa fa-spinner fa-spin"></i>');
 
         emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
+            .then(function () {
                 document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
+                $btn.prop('disabled', false).html('Submit <i class="fa fa-paper-plane"></i>');
+                alert("Message sent successfully! I'll get back to you soon.");
             }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
+                console.error('EmailJS error:', error);
+                $btn.prop('disabled', false).html('Submit <i class="fa fa-paper-plane"></i>');
+                alert("Failed to send message. Please try again or email me directly at vaishnav@tamu.edu");
             });
-        event.preventDefault();
     });
-    // <!-- emailjs to mail contact form data -->
 
 });
 
