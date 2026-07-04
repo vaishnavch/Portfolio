@@ -332,7 +332,9 @@ body.light-theme .home::before {
   padding: 1rem 0;
 }
 .home .btn {
-  margin-top: 1rem;
+  display: inline-block;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   position: relative;
   line-height: 0;
   padding: 1.4rem 2.5rem;
@@ -374,13 +376,13 @@ body.light-theme .home::before {
   margin-bottom: 14px;
 }
 .social-icons a {
-  font-size: 2rem;
+  font-size: 2.3rem;
   display: inline-block;
-  line-height: 44px;
+  line-height: 52px;
   color: #00d9ff;
   background-color: #09011b;
-  width: 44px;
-  height: 44px;
+  width: 52px;
+  height: 52px;
   text-align: center;
   margin-right: 8px;
   border-radius: 100%;
