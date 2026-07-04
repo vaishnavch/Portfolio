@@ -28,9 +28,9 @@ body {
   font-family: "Poppins", sans-serif;
 }
 body.light-theme {
-  --bg: #f7f7f7;
+  --bg: #ffffff;
   --surface: #ffffff;
-  --surface-soft: #f4f6ff;
+  --surface-soft: rgba(255, 255, 255, 0.95);
   --text: #0e2431;
   --muted: #556288;
   --accent: #2506ad;
