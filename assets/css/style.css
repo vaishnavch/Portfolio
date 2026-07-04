@@ -286,6 +286,9 @@ body.light-theme .theme-switch span {
   width: 100%;
   background: linear-gradient(180deg, rgba(5, 3, 15, 0.7) 0%, rgba(5, 3, 15, 0.95) 100%);
 }
+body.light-theme .home::before {
+  background: transparent;
+}
 .home .content {
   flex: 1 1 40rem;
   padding-top: 1rem;
@@ -469,14 +472,16 @@ body.light-theme .theme-switch span {
   gap: 2rem;
   flex-wrap: wrap;
   padding: 4rem;
+  min-height: calc(100vh - 14rem);
+  align-items: center;
 }
 .about .row .image {
   text-align: center;
-  flex: 1 1 35rem;
+  flex: 1 1 40rem;
 }
 .about .row .image img {
-  margin: 4rem;
-  width: 40rem;
+  margin: 2rem;
+  width: 52rem;
   height: auto;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
@@ -493,23 +498,23 @@ body.light-theme .theme-switch span {
 }
 .about .row .content h3 {
   color: var(--text);
-  font-size: 2.5rem;
+  font-size: 3.2rem;
 }
 .about .row .content .tag {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: var(--accent);
   font-weight: 600;
   margin-top: 1rem;
 }
 .about .row .content p {
-  font-size: 1.5rem;
-  margin-top: 1rem;
+  font-size: 1.8rem;
+  margin-top: 1.2rem;
   font-family: "Nunito";
   font-weight: 600;
   text-transform: none;
   text-align: justify;
   text-justify: inter-word;
-  line-height: 1.6rem;
+  line-height: 2.8rem;
   gap: 1.5rem;
   color: var(--text);
 }

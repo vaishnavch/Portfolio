@@ -13,13 +13,13 @@ function getParticleConfig(theme = "dark") {
         },
       },
       color: {
-        value: isLight ? ["#2506ad", "#6b7aff", "#ff9c00"] : ["#ffffff", "#b8c1ff", "#7f68ff"],
+        value: isLight ? ["#222222", "#444444", "#666666"] : ["#ffffff", "#b8c1ff", "#7f68ff"],
       },
       shape: {
         type: "circle",
         stroke: {
           width: 0,
-          color: isLight ? "#2506ad" : "#ffffff",
+          color: isLight ? "#555555" : "#ffffff",
         },
         polygon: {
           nb_sides: 6,
@@ -48,8 +48,8 @@ function getParticleConfig(theme = "dark") {
       line_linked: {
         enable: true,
         distance: 150,
-        color: isLight ? "#ffffff" : "#ffffff",
-        opacity: 0.35,
+        color: isLight ? "#333333" : "#ffffff",
+        opacity: isLight ? 0.7 : 0.35,
         width: 1,
       },
       move: {
