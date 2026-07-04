@@ -2,7 +2,7 @@ function getParticleConfig(theme = "dark") {
   const isLight = theme === "light";
   return {
     canvas: {
-      backgroundColor: isLight ? "#f7f7f7" : "#05030f",
+      backgroundColor: isLight ? "#ffffff" : "#05030f",
     },
     particles: {
       number: {
