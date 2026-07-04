@@ -31,6 +31,21 @@ $(document).ready(function () {
         });
     });
 
+    function copyEmailToClipboard(email) {
+        if (!email) return;
+        navigator.clipboard.writeText(email).then(function () {
+            alert(`Copied ${email} to clipboard`);
+        }, function () {
+            alert(`Please copy the email manually: ${email}`);
+        });
+    }
+
+    $('.copy-email-icon, .copy-email').on('click', function (e) {
+        e.preventDefault();
+        const email = $(this).data('email');
+        copyEmailToClipboard(email);
+    });
+
     // smooth scrolling
     $('a[href*="#"]').on('click', function (e) {
         e.preventDefault();

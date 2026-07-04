@@ -3,7 +3,13 @@
     "allow": [
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(git -C \"c:\\\\Users\\\\vchunduru\\\\OneDrive - Marvell\\\\Personal\\\\Portfolio Website\\\\Portfolio\" status)",
+      "Bash(git -C \"c:\\\\Users\\\\vchunduru\\\\OneDrive - Marvell\\\\Personal\\\\Portfolio Website\\\\Portfolio\" log --oneline -5)",
+      "Bash(git -C \"c:\\\\Users\\\\vchunduru\\\\OneDrive - Marvell\\\\Personal\\\\Portfolio Website\\\\Portfolio\" diff index.html)",
+      "Bash(git -C \"c:\\\\Users\\\\vchunduru\\\\OneDrive - Marvell\\\\Personal\\\\Portfolio Website\\\\Portfolio\" add index.html)",
+      "Bash(git -C 'c:\\\\Users\\\\vchunduru\\\\OneDrive - Marvell\\\\Personal\\\\Portfolio Website\\\\Portfolio' commit -m ' *)",
+      "Bash(git -C \"c:\\\\Users\\\\vchunduru\\\\OneDrive - Marvell\\\\Personal\\\\Portfolio Website\\\\Portfolio\" push)"
     ]
   }
 }
