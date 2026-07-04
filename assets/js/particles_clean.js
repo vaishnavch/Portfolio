@@ -137,6 +137,7 @@ var pJS = function (e, a) {
           });
     }),
     (i.fn.canvasPaint = function () {
+      i.canvas.ctx.fillStyle = i.canvas.backgroundColor || "transparent";
       i.canvas.ctx.fillRect(0, 0, i.canvas.w, i.canvas.h);
     }),
     (i.fn.canvasClear = function () {
