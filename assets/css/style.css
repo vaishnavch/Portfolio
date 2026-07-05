@@ -648,6 +648,13 @@ button.copy-email:focus {
 body.light-theme .skills {
   background: linear-gradient(to bottom, #f4f6ff, #dde4fb);
 }
+body.light-theme .skills h2,
+body.light-theme .skills .heading span {
+  color: var(--text);
+}
+body.light-theme .skills .heading span {
+  color: var(--accent);
+}
 .skills .heading span {
   color: rgb(255, 230, 0);
 }
