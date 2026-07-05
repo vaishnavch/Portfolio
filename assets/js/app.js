@@ -121,7 +121,7 @@ window.initParticles = function (theme = "dark") {
   particlesJS("particles-js", getParticleConfig(theme));
 };
 
-window.initParticles("dark");
+// particles init deferred to DOMContentLoaded via initThemeSwitcher to avoid theme flash
 
 function applyTheme(theme) {
   const body = document.body;

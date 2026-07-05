@@ -173,13 +173,8 @@ function showProjects(projects) {
 
     VanillaTilt.init(document.querySelectorAll(".tilt"), { max: 15 });
 
-    const srtop = ScrollReveal({
-        origin: 'top',
-        distance: '80px',
-        duration: 1000,
-        reset: true
-    });
-    srtop.reveal('.work .box', { interval: 200 });
+    ScrollReveal({ origin: 'top', distance: '80px', duration: 1000, reset: true })
+        .reveal('.work .box', { interval: 200 });
 }
 
 if (document.getElementById("skillsContainer")) {

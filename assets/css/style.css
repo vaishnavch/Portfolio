@@ -214,7 +214,7 @@ body.light-theme .theme-switch span {
 #menu {
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: var(--text);
   display: none;
 }
 @media (max-width: 1200px) {
@@ -653,6 +653,19 @@ body.light-theme .skills {
   margin: auto;
   margin-top: 2rem;
 }
+body.light-theme .skills .container {
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--text);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+body.light-theme .skills .container .bar {
+  background: #f0f3ff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+body.light-theme .skills .container .bar:hover {
+  background-color: #e0e8ff !important;
+  box-shadow: 0 4px 12px rgba(80, 80, 200, 0.2) !important;
+}
 .skills .container .row {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -688,6 +701,11 @@ body.light-theme .skills {
   margin-left: 0.5rem;
 }
 /* skills media queries starts*/
+@media screen and (max-width: 768px) {
+  .skills .container .row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media screen and (max-width: 600px) {
   .skills .container {
     padding: 0;
@@ -828,6 +846,16 @@ body.light-theme .skills {
 .work {
   /* background: #010124; */
   background: linear-gradient(to bottom, #000031, #00002c);
+}
+body.light-theme .work {
+  background: linear-gradient(to bottom, #eef2ff, #e0e9ff);
+}
+body.light-theme .work h2,
+body.light-theme .work .heading span {
+  color: var(--text);
+}
+body.light-theme .work .heading span {
+  color: var(--accent);
 }
 .work h2 {
   color: #fff;
@@ -1020,7 +1048,7 @@ body.light-theme .work .box-container .box .content {
   text-align: center;
   font-weight: 600;
   color: #02094b;
-  font-family: "Font Awesome\ 5 Free";
+  font-family: "Font Awesome 5 Free";
 }
 .experience .left {
   left: 0;
@@ -1161,6 +1189,23 @@ body.light-theme .work .box-container .box .content {
 }
 /* experience media queries ends */
 /* experience section ends */
+
+/* publications section */
+.publications {
+  min-height: auto;
+  padding-bottom: 6rem;
+}
+.publications .box-container .box {
+  padding: 3rem;
+  background: var(--surface);
+  border-radius: 1rem;
+  text-align: center;
+}
+.publications .info-text {
+  font-size: 1.7rem;
+  color: var(--muted);
+  line-height: 1.8;
+}
 
 /* contact section starts */
 .contact {
@@ -1303,7 +1348,7 @@ form .button-area {
   .contact {
     min-height: 70vh;
   }
-  section {
+  .contact, .about, .skills, .work, .publications, .experience {
     padding: 2rem 4%;
   }
   .home .image img {
