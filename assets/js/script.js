@@ -1,5 +1,5 @@
 if (typeof emailjs !== 'undefined') {
-    emailjs.init("TTDmetQLYgWCLzHTDgqxm");
+    emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
 }
 
 $(document).ready(function () {
