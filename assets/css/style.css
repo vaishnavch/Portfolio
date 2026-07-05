@@ -531,7 +531,7 @@ button.copy-email:focus {
 }
 .about .row .image img {
   margin: 2rem;
-  width: 52rem;
+  width: 44.2rem;
   height: auto;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
@@ -586,26 +586,29 @@ button.copy-email:focus {
   margin-top: 2.5rem;
 }
 .resumebtn .btn {
-  padding: 1.7rem 3rem;
-  border-radius: 0.5em;
-  transition: 0.3s;
+  padding: 1.4rem 2.5rem;
+  border-radius: 4em;
+  transition: 0.5s;
   color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  background: var(--btn);
+  box-shadow: 0px 5px 18px rgba(122, 77, 255, 0.35);
   font-family: "Nunito", sans-serif;
+  line-height: 0;
+  position: relative;
+  display: inline-block;
 }
 .resumebtn .btn span {
-  font-weight: 600;
-  font-size: 1.8rem;
+  font-weight: 700;
+  font-size: clamp(1.4rem, 2vw, 1.7rem);
   letter-spacing: 0.1rem;
 }
 .resumebtn .btn i {
   margin-left: 0.3rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   transition: 0.3s;
 }
 .resumebtn .btn:hover {
-  background: #1a047e;
+  background: var(--btn-hover);
 }
 .resumebtn .btn:hover i {
   transform: translateX(5px);
