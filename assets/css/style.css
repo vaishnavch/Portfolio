@@ -407,7 +407,7 @@ body.light-theme .home::before {
   background-color: #0685da;
 }
 .social-icons a.github:hover {
-  background-color: #0e0e0e;
+  background-color: #00aced;
 }
 .social-icons a.scholar:hover {
   background-color: #00aced;
@@ -416,14 +416,10 @@ body.light-theme .home::before {
   background-color: #007bb6;
 }
 .social-icons a.mailto:hover {
-  background-color: #070707;
+  background-color: #007bb6;
 }
-.social-icons a.invent:hover {
-  background-color: #ee00da;
-}
-.social-icons a.copy-email-icon:hover {
-  background-color: #1b7fe5;
-}
+
+
 button.copy-email {
   display: inline-flex;
   align-items: center;

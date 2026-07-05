@@ -117,6 +117,7 @@ function getParticleConfig(theme = "dark") {
 }
 
 window.initParticles = function (theme = "dark") {
+  if (!document.getElementById("particles-js")) return;
   particlesJS("particles-js", getParticleConfig(theme));
 };
 
