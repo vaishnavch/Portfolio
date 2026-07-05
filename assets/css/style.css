@@ -1475,3 +1475,45 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+/* copy email toast */
+.copy-toast {
+  position: fixed;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(1rem);
+  background: var(--accent);
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border-radius: 3rem;
+  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 99999;
+  white-space: nowrap;
+}
+.copy-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* waving hand animation */
+@keyframes wave {
+  0%   { transform: rotate(  0deg); }
+  10%  { transform: rotate( 14deg); }
+  20%  { transform: rotate( -8deg); }
+  30%  { transform: rotate( 14deg); }
+  40%  { transform: rotate( -4deg); }
+  50%  { transform: rotate( 10deg); }
+  60%  { transform: rotate(  0deg); }
+  100% { transform: rotate(  0deg); }
+}
+
+.wave-emoji {
+  display: inline-block;
+  transform-origin: 70% 70%;
+  animation: wave 2.5s ease-in-out infinite;
+  cursor: default;
+}

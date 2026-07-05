@@ -36,12 +36,26 @@ $(document).ready(function () {
         });
     });
 
+    function showToast(message) {
+        let toast = document.getElementById('copy-toast');
+        if (!toast) {
+            toast = document.createElement('div');
+            toast.id = 'copy-toast';
+            toast.className = 'copy-toast';
+            document.body.appendChild(toast);
+        }
+        toast.textContent = message;
+        toast.classList.add('show');
+        clearTimeout(toast._timer);
+        toast._timer = setTimeout(() => toast.classList.remove('show'), 2200);
+    }
+
     function copyEmailToClipboard(email) {
         if (!email) return;
         navigator.clipboard.writeText(email).then(function () {
-            alert(`Copied ${email} to clipboard`);
+            showToast('Email copied to clipboard!');
         }, function () {
-            alert(`Please copy the email manually: ${email}`);
+            showToast('Copy failed — email: ' + email);
         });
     }
 
