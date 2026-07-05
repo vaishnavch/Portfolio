@@ -880,12 +880,12 @@ body.light-theme .work .heading span {
   margin: 2rem;
 }
 .work .box-container .box {
-  flex: 1 1 30rem;
+  flex: 1 1 28rem;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
-  height: 30rem;
+  aspect-ratio: 16 / 9;
 }
 .work .box-container .box img {
   height: 100%;
