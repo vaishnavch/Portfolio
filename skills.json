@@ -5,7 +5,7 @@
     },
     {
         "name": "Autodesk Inventor",
-        "icon": "assets/images/skills/1704443757383.png"
+        "icon": "assets/images/skills/Inventor.png"
     },
     {
         "name": "Solidworks",
@@ -13,7 +13,7 @@
     },
     {
         "name": "Ansys",
-        "icon": "assets/images/skills/ANSYS_logo.png"
+        "icon": "assets/images/skills/icons8-ansys-64.png"
     },
     {
         "name": "3D Printing",
@@ -33,7 +33,7 @@
     },
     {
         "name": "Creo",
-        "icon": "assets/images/skills/1704443733371.png"
+        "icon": "assets/images/skills/Creo.png"
     },
     {
         "name": "LabView",
@@ -44,16 +44,8 @@
         "icon": "assets/images/skills/icons8-matlab-48.png"
     },
     {
-        "name": "Fluent ",
-        "icon": "Fluent.png"
-    },
-    {
-        "name": "RoboAnalyser",
-        "icon": "RoboAnalyser.png"
-    },
-    {
         "name": "LaTeX",
-        "icon": "assets/images/skills/LaTeX_logo.png"
+        "icon": "assets/images/skills/icons8-latex-48.png"
     },
     {
         "name": "Microsoft Office",
@@ -69,7 +61,7 @@
     },
     {
         "name": "C#",
-        "icon": "assets/images/skills/c2.png"
+        "icon": "assets/images/skills/icons8-csharp.png"
     },
     {
         "name": "C++",
@@ -114,37 +106,5 @@
     {
         "name": "GitHub",
         "icon": "assets/images/skills/icons8-github-60.png"
-    },
-    {
-        "name": "Communicating with Confidence",
-        "icon": "CommunicatingwithConfidence.png"
-    },
-    {
-        "name": "Great First Impression",
-        "icon": "GreatFirstImpressions.png"
-    },
-    {
-        "name": "Interpersonal Communication",
-        "icon": "InterpersonalCommunication.png"
-    },
-    {
-        "name": "Working Remotely",
-        "icon": "WorkingRemotely.png"
-    },
-    {
-        "name": "Effective Team Member",
-        "icon": "EffectiveTeamMember.png"
-    },
-    {
-        "name": "Communication",
-        "icon": "Communication.png"
-    },
-    {
-        "name": "Delivering Bad News",
-        "icon": "DeliveringBadNews.png"
-    },
-    {
-        "name": "Business Writing",
-        "icon": "BusinessWriting.png"
     }
 ]

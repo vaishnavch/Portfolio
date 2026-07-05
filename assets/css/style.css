@@ -695,6 +695,11 @@ body.light-theme .skills .container .bar:hover {
   gap: 1rem;
   margin-top: 1rem;
 }
+.skills .container .bar .info img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
 .skills .container .bar .info i {
   font-size: 4rem;
 }
