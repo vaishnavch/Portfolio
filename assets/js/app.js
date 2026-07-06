@@ -147,7 +147,7 @@ function applyTheme(theme) {
 }
 
 function initThemeSwitcher() {
-  const savedTheme = localStorage.getItem("portfolio-theme") || "dark";
+  const savedTheme = localStorage.getItem("portfolio-theme") || "light";
   applyTheme(savedTheme);
 
   const toggle = document.getElementById("theme-toggle");
