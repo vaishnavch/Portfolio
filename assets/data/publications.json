@@ -1,0 +1,42 @@
+﻿{
+    "updatedAt":  "2026-07-06",
+    "citations":  56,
+    "publications":  [
+                         {
+                             "title":  "Hand tracking in 3d space using mediapipe and pnp method for intuitive control of virtual globe",
+                             "year":  2021,
+                             "citations":  53
+                         },
+                         {
+                             "title":  "Interactive image projective desktop and screen using hand tracking by leap motion",
+                             "year":  2021,
+                             "citations":  3
+                         }
+                     ],
+    "graph":  [
+                  {
+                      "label":  "2021",
+                      "count":  4
+                  },
+                  {
+                      "label":  "2022",
+                      "count":  8
+                  },
+                  {
+                      "label":  "2023",
+                      "count":  13
+                  },
+                  {
+                      "label":  "2024",
+                      "count":  18
+                  },
+                  {
+                      "label":  "2025",
+                      "count":  9
+                  },
+                  {
+                      "label":  "2026",
+                      "count":  3
+                  }
+              ]
+}

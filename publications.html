@@ -58,11 +58,26 @@
 <section class="publications" id="publications" style="padding-top: 8rem;">
   <h2 class="heading"><i class="fas fa-book"></i> Publications <span>Work</span></h2>
   <div class="container">
-    <div class="box-container">
-      <div class="box">
-        <p class="info-text">Publications are being added soon. In the meantime, you can visit my Google Scholar profile for the latest research and citations.</p>
+    <div class="publications-summary">
+      <div class="summary-card">
+        <h3>Google Scholar snapshot</h3>
+        <p class="summary-stat"><strong id="scholar-citations">Loading…</strong> citations</p>
+        <p class="summary-stat"><strong id="scholar-publication-count">Loading…</strong> publications listed</p>
+        <a class="scholar-link" href="https://scholar.google.com/citations?user=AnUqsdkAAAAJ&hl=en" target="_blank" rel="noopener">
+          <i class="fas fa-graduation-cap"></i> Open Google Scholar
+        </a>
+      </div>
+      <div class="summary-card">
+        <h3>Cited by graph</h3>
+        <div class="graph-shell">
+          <svg id="citation-graph" viewBox="0 0 320 180" role="img" aria-label="Cited by graph"></svg>
+        </div>
+        <p class="graph-note" id="graph-note">Updating daily from the Scholar profile.</p>
       </div>
     </div>
+
+    <div id="publications-list" class="publication-grid"></div>
+    <p class="info-text" id="publications-updated">Loading the latest publication list from Google Scholar…</p>
   </div>
 </section>
 <!-- publications section ends -->
@@ -110,6 +125,29 @@
 
 <!-- theme switcher -->
 <script src="./assets/js/app.js"></script>
+<script>
+  window.__SCHOLAR_PUBLICATIONS_DATA__ = {
+    updatedAt: '2026-07-06',
+    citations: 56,
+    publications: [
+      {
+        title: 'Hand tracking in 3D space using mediapipe and PnP method for intuitive control of virtual globe',
+        year: 2021,
+        citations: 53
+      },
+      {
+        title: 'Interactive image projective desktop and screen using hand tracking by leap motion',
+        year: 2021,
+        citations: 3
+      }
+    ],
+    graph: [
+      { label: '2020', count: 2 },
+      { label: '2021', count: 56 }
+    ]
+  };
+</script>
+<script src="./assets/js/publications.js"></script>
 <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
 <script src="./assets/js/script.js"></script>

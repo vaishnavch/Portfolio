@@ -1214,16 +1214,87 @@ body.light-theme .work .box-container .box .content {
   min-height: auto;
   padding-bottom: 6rem;
 }
-.publications .box-container .box {
-  padding: 3rem;
+.publications .publications-summary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+.publications .summary-card {
+  padding: 2rem;
   background: var(--surface);
   border-radius: 1rem;
-  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+.publications .summary-card h3 {
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+.publications .summary-stat {
+  font-size: 1.6rem;
+  color: var(--muted);
+  margin-bottom: 0.8rem;
+}
+.publications .summary-stat strong {
+  color: var(--text);
+}
+.publications .scholar-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: #1a73e8;
+  font-weight: 600;
+}
+.publications .graph-shell {
+  margin-top: 0.6rem;
+}
+.publications .graph-shell svg {
+  width: 100%;
+  height: auto;
+}
+.publications .graph-note {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  color: var(--muted);
+}
+.publications .publication-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+.publications .publication-card {
+  padding: 2rem;
+  background: var(--surface);
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+.publications .publication-card h4 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+.publications .publication-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 1.3rem;
+  color: var(--muted);
 }
 .publications .info-text {
+  margin-top: 2rem;
   font-size: 1.7rem;
   color: var(--muted);
   line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .publications .publications-summary,
+  .publications .publication-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* contact section starts */
