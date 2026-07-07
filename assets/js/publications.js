@@ -41,7 +41,7 @@
 
     citations.textContent = data.citations || '0';
     publicationCount.textContent = data.publications ? data.publications.length : '0';
-    updated.textContent = 'Last updated ' + (data.updatedAt || 'just now') + ' from Google Scholar.';
+    updated.textContent = '';
 
     list.innerHTML = '';
     if (!data.publications || !data.publications.length) {
