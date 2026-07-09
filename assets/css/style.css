@@ -1633,6 +1633,12 @@ form .button-area {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
+.copy-toast.error {
+  background: #e74c3c;
+}
+.copy-toast.success {
+  background: #27ae60;
+}
 
 /* waving hand animation */
 @keyframes wave {

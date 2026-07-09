@@ -1,7 +1,3 @@
-if (typeof emailjs !== 'undefined') {
-    emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
-}
-
 $(document).ready(function () {
 
     $('#menu').click(function () {
@@ -36,7 +32,7 @@ $(document).ready(function () {
         });
     });
 
-    function showToast(message) {
+    function showToast(message, type) {
         let toast = document.getElementById('copy-toast');
         if (!toast) {
             toast = document.createElement('div');
@@ -45,9 +41,11 @@ $(document).ready(function () {
             document.body.appendChild(toast);
         }
         toast.textContent = message;
+        toast.classList.remove('error', 'success');
+        if (type) toast.classList.add(type);
         toast.classList.add('show');
         clearTimeout(toast._timer);
-        toast._timer = setTimeout(() => toast.classList.remove('show'), 2200);
+        toast._timer = setTimeout(() => toast.classList.remove('show'), 3500);
     }
 
     function copyEmailToClipboard(email) {
@@ -84,19 +82,61 @@ $(document).ready(function () {
     if (document.getElementById("contact-form")) {
         $("#contact-form").submit(function (event) {
             event.preventDefault();
+
+            var name    = $('[name="name"]').val().trim();
+            var email   = $('[name="email"]').val().trim();
+            var phone   = $('[name="phone"]').val().trim();
+            var message = $('[name="message"]').val().trim();
+            var honey   = $('[name="_honey"]').val();
+
+            // Reject spam bots that fill the honeypot
+            if (honey) return;
+
+            // Client-side validation
+            if (name.length < 2) {
+                showToast('Please enter your full name.', 'error'); return;
+            }
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                showToast('Please enter a valid email address.', 'error'); return;
+            }
+            if (phone && !/^[+]?[(]?[0-9]{1,4}[)]?[-\s.]?[0-9]{3}[-\s.]?[0-9]{4,10}$/.test(phone)) {
+                showToast('Please enter a valid phone number, or leave it blank.', 'error'); return;
+            }
+            if (message.length < 10) {
+                showToast('Please write a message (at least 10 characters).', 'error'); return;
+            }
+
             var $btn = $(this).find('button[type="submit"]');
             $btn.prop('disabled', true).html('Sending... <i class="fa fa-spinner fa-spin"></i>');
 
-            emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-                .then(function () {
+            fetch('https://formsubmit.co/ajax/vaishnav@tamu.edu', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                body: JSON.stringify({
+                    name:      name,
+                    email:     email,
+                    phone:     phone || 'Not provided',
+                    message:   message,
+                    _subject:  'Portfolio Contact from ' + name,
+                    _template: 'table',
+                    _replyto:  email
+                })
+            })
+            .then(function (res) { return res.json(); })
+            .then(function (data) {
+                if (data.success === 'true' || data.success === true) {
                     document.getElementById("contact-form").reset();
-                    $btn.prop('disabled', false).html('Submit <i class="fa fa-paper-plane"></i>');
-                    alert("Message sent successfully! I'll get back to you soon.");
-                }, function (error) {
-                    console.error('EmailJS error:', error);
-                    $btn.prop('disabled', false).html('Submit <i class="fa fa-paper-plane"></i>');
-                    alert("Failed to send message. Please try again or email me directly at vaishnav@tamu.edu");
-                });
+                    showToast("Message sent! I'll get back to you soon.", 'success');
+                } else {
+                    showToast("Could not send — email me at vaishnav@tamu.edu", 'error');
+                }
+            })
+            .catch(function () {
+                showToast("Could not send — email me at vaishnav@tamu.edu", 'error');
+            })
+            .finally(function () {
+                $btn.prop('disabled', false).html('Submit <i class="fa fa-paper-plane"></i>');
+            });
         });
     }
 
